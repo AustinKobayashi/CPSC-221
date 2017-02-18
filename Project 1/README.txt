@@ -5,10 +5,7 @@
 \margl1440\margr1440\vieww12600\viewh7280\viewkind0
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
 
-\f0\fs22 \cf2 \cb3 \CocoaLigature0 Austin Kobayashi\
-42376153\
-l4l0b\
-\
+\f0\fs22 \cf2 \cb3 \CocoaLigature0 \
 Included files:\
 	- LQueue_driver.C: This is the main function of LQueue and tests the 					  implementation of LQueue.\
 \
