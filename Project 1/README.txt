@@ -11,8 +11,9 @@ Included files:
 	- Makefile: This is the make file for LQueue and runway
 
 
-LQueue_driver:  There are multiple tests in this file that test the implementation of LQueue.C. There are comments that describe what case is being tested. There are also comments in the LQueue.C file at the blocks of code that 
-each test covers to help show the test coverage.
+LQueue_driver:  There are multiple tests in this file that test the implementation of LQueue.C. 
+		There are comments that describe what case is being tested. There are also comments 
+		in the LQueue.C file at the blocks of code that each test covers to help show the test coverage.
 
 Runway: Has the specified functionality plus 3 additional functionalities: Blacklist,
 		remove plane, value at position.
