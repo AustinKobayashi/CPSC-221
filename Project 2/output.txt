@@ -1,0 +1,91 @@
+Would you like to run part 2 tests with PrintTree?
+This will print out the entire tree (similar to lab4)
+Would recommend 'n' for very large test texts files (eg. 'sample2.txt)'
+(The functionality will not work correctly with large amounts of text)
+(y/n)?
+n
+Created heap of size 10
+Current number of items in heap is: 0
+Heap is empty, can't access top!
+
+BEGINNING TESTS FOR PART 1A
+*** TESTING INSERT ***
+adding item1,  with number 55 to heap
+Top of heap is: text_item{"item1",55}
+adding item2,  with number 25 to heap
+Top of heap is: text_item{"item1",55}
+adding item3,  with number 57 to heap
+Top of heap is: text_item{"item3",57}
+adding item4,  with number 86 to heap
+Top of heap is: text_item{"item4",86}
+adding item5,  with number 42 to heap
+Top of heap is: text_item{"item4",86}
+
+*** TESTING INSERT NO SWAP_UPS ***
+adding item6,  with number 0 to heap
+Top of heap is: text_item{"item4",86}
+
+*** TESTING INSERT WITH SOME SWAP_UPS ***
+adding item7,  with number 85 to heap
+Top of heap is: text_item{"item4",86}
+
+*** TESTING INSERT WITH FULL SWAP_UPS ***
+adding item8,  with number 87 to heap
+Top of heap is: text_item{"item8",87}
+
+BEGINNING TESTS FOR PART 1B
+*** TESTING DELETEMAX ***
+Item returned from heap delete: text_item{"item8",87}
+Top of heap is now: text_item{"item4",86}
+REMAKING HEAP
+adding item,  with number 6 to heap
+adding item,  with number 4 to heap
+adding item,  with number 2 to heap
+adding item,  with number 0 to heap
+*** TESTING SWAP_DOWN WITH LEFT CHILD ***
+Item returned from heap delete: text_item{"item",6}
+
+ADDING MORE ITEMS TO HEAP
+adding item,  with number 1 to heap
+adding item,  with number 2 to heap
+adding item,  with number 3 to heap
+*** TESTING SWAP_DOWN WITH RIGHT CHILD ***
+Item returned from heap delete: text_item{"item",4}
+CLEARING HEAP
+Cannot delete, heap is empty!
+
+BEGINNING TESTS FOR PART 2
+Found: difficult in the input file 39 time(s).
+
+SEARCHING ALL THE WAY DOWN LEFT SUBTREE
+*** note: this test was structured to run on 'sample1.txt' ***
+Found: a in the input file 14315 time(s).
+
+SEARCHING ALL THE WAY DOWN RIGHT SUBTREE
+*** note: this test was structured to run on 'sample1.txt' ***
+Found: writing in the input file 32 time(s).
+
+SEARCHING FOR NON-EXISTING WORD
+Found: ThisIsANullWord in the input file 0 time(s).
+
+BEGINNING TESTS FOR PART 3
+*** Top 5 most frequent words: ***
+Most frequent text item: text_item{"the",40506}
+Most frequent text item: text_item{"of",19652}
+Most frequent text item: text_item{"and",14786}
+Most frequent text item: text_item{"a",14315}
+Most frequent text item: text_item{"to",13761}
+
+*** Top 5 most frequent words with at least 6 letters ***
+text_item{"marius",1347}
+text_item{"valjean",1098}
+text_item{"himself",1063}
+text_item{"cosette",1000}
+text_item{"little",971}
+
+*** Top 5 most frequent words that begin with c ***
+text_item{"cosette",1000}
+text_item{"could",675}
+text_item{"come",548}
+text_item{"child",453}
+text_item{"can",432}
